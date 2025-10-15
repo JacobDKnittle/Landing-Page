@@ -1,3 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .hero-section {
     background-color: #1F2937;
+}
+
+.hero-content-wrapper {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    
 }
