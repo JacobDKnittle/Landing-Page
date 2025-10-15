@@ -29,8 +29,42 @@
     margin-bottom: 100px;
 }
 
+.header img {
+    width: 150px;
+}
+
 .header-links {
     display: flex;
     gap: 24px;
     color: #E5E7EB;
+}
+
+.main-hero {
+    display: flex;
+    gap: 60px;
+}
+
+.left-main-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-main-hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left-main-hero button {
+    background-color: #3882f6;
+    max-width: 120px;
+    padding: 6px 20px;
+    color: white;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+}
+
+.main-hero img {
+    max-width: 400px;
 }
