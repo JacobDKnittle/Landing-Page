@@ -2,15 +2,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
+
+
 
 .hero-section {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 22px;
 }
 
 .hero-content-wrapper {
     background-color: #1F2937;
     color: white;
+    width: 900px;
+}
+
+.header {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+    color: #E5E7EB;
 }
