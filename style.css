@@ -104,6 +104,7 @@
 .service {
     max-width: 300px;
     text-align: center;
+    font-size: 24px;
 }
 
 .gym-services img {
@@ -111,4 +112,55 @@
     height: 180px;
     border: 3px solid #3882f6;
     border-radius: 6px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.quote-content-wrapper {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-content-wrapper blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.quote-content-wrapper span {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.call-to-action-content {
+    width: 1000px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    border: 1px solid #3882f6;
+    border-radius: 10px
+}
+
+.call-to-action-content button {
+    border: 1px solid #F9FAF8;
+    background-color: #3882f6;
+    color: #F9FAF8;
 }
