@@ -160,7 +160,11 @@
 }
 
 .call-to-action-content button {
-    border: 1px solid #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
     background-color: #3882f6;
     color: #F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 35px;
 }
